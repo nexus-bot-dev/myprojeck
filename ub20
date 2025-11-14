@@ -791,9 +791,9 @@ print_success "All Packet"
 function menu(){
 clear
 print_install "Memasang Menu Packet"
-wget https://raw.githubusercontent.com/nexus-bot-dev/myprojeck/main/Bot/menuku.zip
+wget https://raw.githubusercontent.com/nexus-bot-dev/myprojeck/main/Bot/menu.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Unexus-bot-dev/myprojeck/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-7z x -pBumiAyuVpn12BAV menuku.zip
+7z x -pBumiAyuVpn12BAV menu.zip
 chmod +x menu/*
 enc menu/*
 mv menu/* /usr/local/sbin
